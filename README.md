@@ -1,6 +1,15 @@
 # Proday
 A repo for proday
 
+The repo is intended to showcase best practices for Prompt Engineering.
+
 This repo includes a skeleton setup for creating custom instructions and reusable prompt files
 
-It also a basic Python function that calculates the moving average of a list of numbers with a specified window size
+## Contents
+
+- Skeleton setup for creating custom instructions
+- Reusable prompt files in `copilot-prompts/`
+
+## Purpose
+
+This repository is designed to help users learn and apply best practices in Prompt Engineering for AI and Copilot workflows.
