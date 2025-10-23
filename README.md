@@ -14,25 +14,36 @@ You'll also see how using **Custom Instructions** in Copilot can dramatically im
 
 ---
 
+## Repository Structure
+
+```
+Proday/
+├── README.md
+├── test.py
+├── Custom-instructions-example/
+│   └── example-custom-instructions.md
+├── Prompting-exercise/
+│   ├── good.md
+│   ├── better.md
+│   └── best.md
+├── Reusableprompts/
+│   └── reusable-prompt-examples.md
+└── Tests/
+    └── tests.md
+```
+
 ## Files in This Demo
 
+### Prompting Exercise
 - [`Prompting-exercise/good.md`](Prompting-exercise/good.md): Minimal, basic prompt example
 - [`Prompting-exercise/better.md`](Prompting-exercise/better.md): Improved, more specific prompt example
 - [`Prompting-exercise/best.md`](Prompting-exercise/best.md): Highly detailed and context-aware prompt example, with recommended best practices
 
----
-
-
-In addition to the basic prompt engineering examples, this repository includes new resources to help you get the most from GitHub Copilot and structured prompts:
-
-- [`.github/copilot-instructions.md`](.github/copilot-instructions.md) (example):  
-  Template for repository-level Copilot custom instructions.
-- [`example-custom-instructions.md`](example-custom-instructions.md):  
-  Illustration of how to write effective Copilot instructions, with commentary on best practices (context, intent, clarity, specificity).
-- [`tests.md`](tests.md):  
-  Examples showing how to use the `/test` command with increasing levels of detail and effectiveness.
-- [`reusable-prompt-examples.md`](reusable-prompt-examples.md):  
-  A collection of ready-to-use prompts for Copilot (chat, comments, or documentation), plus guidance on how to apply them for your team.
+### Additional Resources
+- [`Custom-instructions-example/example-custom-instructions.md`](Custom-instructions-example/example-custom-instructions.md): Illustration of how to write effective Copilot instructions, with commentary on best practices (context, intent, clarity, specificity)
+- [`Tests/tests.md`](Tests/tests.md): Examples showing how to use the `/test` command with increasing levels of detail and effectiveness
+- [`Reusableprompts/reusable-prompt-examples.md`](Reusableprompts/reusable-prompt-examples.md): A collection of ready-to-use prompts for Copilot (chat, comments, or documentation), plus guidance on how to apply them for your team
+- [`test.py`](test.py): Python test file for demonstration purposes
 
 ---
 
