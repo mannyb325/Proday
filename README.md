@@ -22,6 +22,20 @@ You'll also see how using **Custom Instructions** in Copilot can dramatically im
 
 ---
 
+
+In addition to the basic prompt engineering examples, this repository includes new resources to help you get the most from GitHub Copilot and structured prompts:
+
+- [`.github/copilot-instructions.md`](.github/copilot-instructions.md) (example):  
+  Template for repository-level Copilot custom instructions.
+- [`custom-instructions-example.md`](custom-instructions-example.md):  
+  Illustration of how to write effective Copilot instructions, with commentary on best practices (context, intent, clarity, specificity).
+- [`tests.md`](tests.md):  
+  Examples showing how to use the `/test` command with increasing levels of detail and effectiveness.
+- [`reusable-prompts-examples.md`](reusable-prompts-examples.md):  
+  A collection of ready-to-use prompts for Copilot (chat, comments, or documentation), plus guidance on how to apply them for your team.
+
+---
+
 ## Why Prompt Engineering?
 
 Prompt engineering means crafting your prompt (the question or instruction you give to Copilot) to get the most accurate, relevant, and useful results.
@@ -52,7 +66,10 @@ With Custom Instructions enabled, even basic prompts generate richer, more tailo
    - See how each step improves the output.
 2. **Try each prompt with Copilot:**  
    - Compare results with and without Custom Instructions.
-3. **Discuss with your team or workshop:**  
+3. **Explore the new resources:**  
+   - Use the new example files for your own prompt engineering experiments.
+   - Adapt the reusable prompts and instructions for your team's workflow.
+4. **Discuss with your team or workshop:**  
    - What works best for your context?
    - How will you write prompts and set Custom Instructions in your workflow?
 
