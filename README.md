@@ -11,26 +11,55 @@ This repo includes a skeleton setup for creating custom instructions and reusabl
 - Reusable prompt files in `copilot-prompts/`
 - A simple python function
 
-## Purpose
+# Prompt Engineering Demo: Python to Java with GitHub Copilot
 
-This repository is designed to help users learn and apply best practices in Prompt Engineering for AI and Copilot workflows.
+This demo showcases the "Good → Better → Best" approach to prompt engineering using **GitHub Copilot**.  
+**Scenario:** Convert a simple Python function to Java.
 
-## Good, Better, Best: Prompting Copilot to Convert Python Code to Java
-
-**Good Prompt**  
-Convert this Python code to Java.
+You'll also see how using **Custom Instructions** in Copilot can dramatically improve its responses, making them more helpful, educational, and tailored to your needs.
 
 ---
 
-**Better Prompt**  
-Convert this Python function that calculates the moving average of a list of numbers with a specified window size to Java. Ensure the logic and functionality remain the same.
+## Files in This Demo
+
+- [`good.md`](good.md): Minimal, basic prompt example
+- [`better.md`](better.md): Improved, more specific prompt example
+- [`best.md`](best.md): Highly detailed and context-aware prompt example, with recommended best practices
 
 ---
 
-**Best Prompt**  
-Convert the following Python function, which calculates the moving average of a list of numbers with a specified window size, to Java.  
-- Implement the function as a static method in a Java class.  
-- Use Java collections (e.g., `List<Double>`) for input and output.  
-- Handle edge cases, such as window size greater than the list length or less than 1, with appropriate error handling or exceptions.  
-- Preserve the algorithm’s logic and efficiency.  
-- Add comments in the Java code to explain any differences or assumptions made during conversion.
+## Why Prompt Engineering?
+
+Prompt engineering means crafting your prompt (the question or instruction you give to Copilot) to get the most accurate, relevant, and useful results.
+
+- **Good prompts** get the job done, but may lack clarity or detail.
+- **Better prompts** add context and constraints, leading to improved results.
+- **Best prompts** specify exactly what you want, for whom, and how, producing consistent, high-quality output.
+
+---
+
+## Custom Instructions in Copilot
+
+Custom Instructions let you tell Copilot about your background, preferences, and desired response style.
+
+**Example Custom Instructions:**
+- _What would you like Copilot to know about you?_  
+  "I am a Python developer learning Java. Please explain code transitions and always include comments."
+- _How would you like Copilot to respond?_  
+  "Use simple language, add comments to all code, and give example usage."
+
+With Custom Instructions enabled, even basic prompts generate richer, more tailored responses.
+
+---
+
+## How to Use This Demo
+
+1. **Review the three prompt files:**  
+   - See how each step improves the output.
+2. **Try each prompt with Copilot:**  
+   - Compare results with and without Custom Instructions.
+3. **Discuss with your team or workshop:**  
+   - What works best for your context?
+   - How will you write prompts and set Custom Instructions in your workflow?
+
+---
