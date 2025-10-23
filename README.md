@@ -5,12 +5,6 @@ The repo is intended to showcase best practices for Prompt Engineering.
 
 This repo includes a skeleton setup for creating custom instructions and reusable prompt files
 
-## Contents
-
-- Skeleton setup for creating custom instructions
-- Reusable prompt files in `copilot-prompts/`
-- A simple python function
-
 # Prompt Engineering Demo: Python to Java with GitHub Copilot
 
 This demo showcases the "Good → Better → Best" approach to prompt engineering using **GitHub Copilot**.  
