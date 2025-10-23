@@ -16,9 +16,9 @@ You'll also see how using **Custom Instructions** in Copilot can dramatically im
 
 ## Files in This Demo
 
-- [`good.md`](good.md): Minimal, basic prompt example
-- [`better.md`](better.md): Improved, more specific prompt example
-- [`best.md`](best.md): Highly detailed and context-aware prompt example, with recommended best practices
+- [`Prompting-exercise/good.md`](Prompting-exercise/good.md): Minimal, basic prompt example
+- [`Prompting-exercise/better.md`](Prompting-exercise/better.md): Improved, more specific prompt example
+- [`Prompting-exercise/best.md`](Prompting-exercise/best.md): Highly detailed and context-aware prompt example, with recommended best practices
 
 ---
 
@@ -27,11 +27,11 @@ In addition to the basic prompt engineering examples, this repository includes n
 
 - [`.github/copilot-instructions.md`](.github/copilot-instructions.md) (example):  
   Template for repository-level Copilot custom instructions.
-- [`custom-instructions-example.md`](custom-instructions-example.md):  
+- [`example-custom-instructions.md`](example-custom-instructions.md):  
   Illustration of how to write effective Copilot instructions, with commentary on best practices (context, intent, clarity, specificity).
 - [`tests.md`](tests.md):  
   Examples showing how to use the `/test` command with increasing levels of detail and effectiveness.
-- [`reusable-prompts-examples.md`](reusable-prompts-examples.md):  
+- [`reusable-prompt-examples.md`](reusable-prompt-examples.md):  
   A collection of ready-to-use prompts for Copilot (chat, comments, or documentation), plus guidance on how to apply them for your team.
 
 ---
