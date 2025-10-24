@@ -1,4 +1,4 @@
-# Using the `/tests` Command: Good, Better, Best (Java Edition)
+# Using the `/tests` Command: Good, Better, Best
 
 The `/tests` slash command helps Copilot generate tests for your code. The more context and detail you provide, the better the generated tests. Here’s how you can apply “good, better, best” to Java test generation.
 
