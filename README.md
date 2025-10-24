@@ -41,7 +41,7 @@ Proday/
 
 ### Additional Resources
 - [`Custom-instructions-example/example-custom-instructions.md`](Custom-instructions-example/example-custom-instructions.md): Illustration of how to write effective Copilot instructions, with commentary on best practices (context, intent, clarity, specificity)
-- [`Tests/tests.md`](Tests/tests.md): Examples showing how to use the `/test` command with increasing levels of detail and effectiveness
+- [`Tests/tests.md`](Tests/tests.md): Examples showing how to use the `/tests` command with increasing levels of detail and effectiveness
 - [`Reusableprompts/reusable-prompt-examples.md`](Reusableprompts/reusable-prompt-examples.md): A collection of ready-to-use prompts for Copilot (chat, comments, or documentation), plus guidance on how to apply them for your team
 - [`test.py`](test.py): Python test file for demonstration purposes
 
