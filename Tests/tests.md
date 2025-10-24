@@ -1,15 +1,15 @@
-# Using the `/test` Command: Good, Better, Best  
+# Using the `/tests` Command: Good, Better, Best (Java Edition)
 
-The `/test` slash command helps Copilot generate tests for your code. The more context and detail you provide, the better the generated tests. Here’s how you can apply “good, better, best” to `moving_average` in `test.py`:
+The `/tests` slash command helps Copilot generate tests for your code. The more context and detail you provide, the better the generated tests. Here’s how you can apply “good, better, best” to Java test generation.
 
 ---
 
 ## Good
 
-> /test
+> /tests
 
 **What happens:**  
-Copilot attempts to generate a test, usually for the most recent or focused function (`moving_average`).  
+Copilot attempts to generate a test, usually for the most recent or focused method (e.g., `movingAverage`).  
 - **Context:** Minimal; Copilot decides what to test and how.
 - **Limitations:** May only create a basic test with default values, possibly missing important edge cases.
 
@@ -17,11 +17,11 @@ Copilot attempts to generate a test, usually for the most recent or focused func
 
 ## Better
 
-> /test Write tests for the `moving_average` function in `test.py`, covering normal and edge cases.
+> /tests Write tests for the `movingAverage` method, covering normal and edge cases.
 
 **What happens:**  
-Copilot generates tests specifically for `moving_average`, likely including at least one “normal” case and some error cases.
-- **Context:** Specifies the function and the file.
+Copilot generates tests specifically for `movingAverage`, likely including at least one “normal” case and some error cases.
+- **Context:** Specifies the method.
 - **Clarity:** Requests edge case coverage.
 - **Improvement:** More targeted and relevant tests.
 
@@ -29,18 +29,18 @@ Copilot generates tests specifically for `moving_average`, likely including at l
 
 ## Best
 
-> /test Write comprehensive pytest tests for the `moving_average` function in `test.py`, including:
+> /tests Write comprehensive JUnit tests for the `movingAverage` method, including:
 > - Normal input (`[1, 2, 3, 4, 5, 6]`, window size 3, expect `[2.0, 3.0, 4.0, 5.0]`)
 > - Edge case: window size equals data length
-> - Edge case: window size 1 (should return original data)
-> - Error: window size 0 (should raise ValueError)
-> - Error: window size greater than data length (should raise ValueError)
-> - Error: empty data list (should raise ValueError)
-> Use clear, descriptive test function names and docstrings.
+> - Edge case: window size 1 (should return original data as doubles)
+> - Error: window size 0 (should throw IllegalArgumentException)
+> - Error: window size greater than data length (should throw IllegalArgumentException)
+> - Error: empty data list (should throw IllegalArgumentException)
+> Use clear, descriptive test method names and JavaDoc comments.
 
 **What happens:**  
-Copilot generates a robust suite of tests, covering all specified scenarios with clear names and documentation, using the `pytest` framework.
-- **Context:** Complete (file, function, expected behaviors, framework).
+Copilot generates a robust suite of tests, covering all specified scenarios with clear names and documentation, using the JUnit framework.
+- **Context:** Complete (method, expected behaviors, framework).
 - **Clarity:** Explicit about what to test and expected results.
 - **Specificity:** Lists inputs, outputs, and error cases.
 
